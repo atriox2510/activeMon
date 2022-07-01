@@ -1,2 +1,2 @@
 # activeMon
-Script en bash para la detección de un host activo a través de paquetes ICMP
+Bash script for detecting an active host via ICMP packets
