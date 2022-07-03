@@ -8,4 +8,4 @@ chmod +x activeMon.sh
 ./activeMon.sh 192.168.100.1
 ```
 ## Demo
-![](/assets/images/activeMon/demo.png)
+![](demo.png)
