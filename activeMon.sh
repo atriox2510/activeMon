@@ -11,7 +11,7 @@ target=$1
 
 if [[ $1 ]]; then
   while true; do
-    ping -c 1 $target &>/dev/null && echo "activo" || echo "No activo"
+    timeout 3 bash -c "ping -c 1 $target" &>/dev/null && echo "Activo" || echo "No Activo"
     sleep 4
   done
 else
